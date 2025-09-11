@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { IndexComponent } from './pages/app/index.component';
+import { IndexComponent } from './pages/index/index.component';
 import { CounterPageComponent } from './pages/counter/counterPage.component'
 
 export const routes: Routes = [

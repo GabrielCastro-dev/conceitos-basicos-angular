@@ -7,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrl: './counterPage.component.scss'
 })
 export class CounterPageComponent {
+  counter: number = 0;
 
+  somar(){
+    this.counter++;
+  }
+
+  diminuir(){
+    this.counter--;
+  }
 }
