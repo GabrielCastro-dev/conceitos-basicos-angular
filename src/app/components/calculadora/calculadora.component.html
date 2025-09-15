@@ -11,10 +11,22 @@
             <input type="submit" value="Calcular">
         </form>
 
-        <div class="result-display">
-            <p>Resultado:
+
+        <!-- Renderização condicional com if simples -->
+        @if(resultado){
+            <div class="result-display">
+                <p>Resultado:
+                    <span id="result">{{ resultado }}</span>
+                </p>
+            </div>
+        }
+
+        <!-- Renderização condicional com módulo ng -->
+        <div class="result-display" *ngIf="resultado">
+            <p>Resultado com ngIf:
                 <span id="result">{{ resultado }}</span>
             </p>
         </div>
+
     </div>
 </div>
