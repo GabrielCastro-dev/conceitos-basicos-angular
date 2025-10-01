@@ -20,6 +20,9 @@ export class ListaComprasComponent {
     item.nome = this.novoItem;
     
     this.lista.push(item);
+
+    // Limpa o input de item
+    this.novoItem = '';
   }
 
   riscarItem(itemLista: ItemLista) {
