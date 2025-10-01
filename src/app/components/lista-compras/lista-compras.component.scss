@@ -90,3 +90,16 @@ input[type="checkbox"]{
     transform: scale(1.2);
     cursor: pointer;
 }
+
+.item-riscado{
+    text-decoration: line-through;
+    
+}
+
+.btn-limpar {
+    background-color: rgb(228, 9, 56);
+}
+
+.btn-limpar:hover {
+    background-color: rgb(175, 5, 42);
+}
